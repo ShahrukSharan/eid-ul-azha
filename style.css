@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu>ul {
+    display: flex;
+    float: right;
+}
+
+.menu>ul>li {
+    list-style: none;
+    padding: 10px;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.menu>ul>li>a:hover {
+    color: blue;
+}
+
+.hero {
+    background-image:  linear-gradient(to bottom, rgba(10, 10, 10, 0.52), rgba(0, 0, 0, 0.73)), url(images/hero-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero>h1 {
+    font-size: 300%;
+    padding: 50px 40px 40px 80px;
+    color: white;
+}
+
+.hero>p {
+    color: aliceblue;
+    padding: 50px 40px 40px 80px;
+    width: 50%;
+}
+
+.common-btn {
+    border: none;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 70px;
+    padding: 15px;
+    background-color: #EF233C;
+    color: aliceblue;
+}
+
+.donation-dependency, .donation-survive {
+    display: flex;
+    margin-top: 30px;
+}
+
+.donation-dependency-text {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.donation-dependency-heading {
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+
+.dependency-btn {
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #EF233C;
+    color: aliceblue;
+}
+
+.donation-dependency-image {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.donation-survive-image {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.donation-survive-text {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.donation-survive-heading {
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+
+.survive-btn {
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #EF233C;
+    color: aliceblue;
+}
